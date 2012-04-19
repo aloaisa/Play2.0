@@ -1,0 +1,1009 @@
+2012-04-19 21:05:02,803 - [INFO] - from play in main 
+Listening for HTTP on port 9000...
+
+2012-04-19 21:05:18,029 - [INFO] - from play in play-akka.actor.default-dispatcher-1 
+Application started (Dev)
+
+2012-04-19 21:09:22,318 - [INFO] - from play in play-akka.actor.default-dispatcher-1 
+Application started (Dev)
+
+2012-04-19 21:09:54,053 - [INFO] - from play in play-akka.actor.default-dispatcher-6 
+Application started (Dev)
+
+2012-04-19 21:10:19,164 - [INFO] - from play in play-akka.actor.default-dispatcher-6 
+Application started (Dev)
+
+2012-04-19 21:10:48,306 - [ERROR] - from application in New I/O server worker #1-2 
+
+
+! Internal server error, for request [GET /] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [')' expected]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:10:48,674 - [ERROR] - from application in New I/O server worker #1-8 
+
+
+! Internal server error, for request [GET /] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [')' expected]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:10:49,020 - [ERROR] - from application in New I/O server worker #1-3 
+
+
+! Internal server error, for request [GET /] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [')' expected]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:10:49,387 - [ERROR] - from application in New I/O server worker #1-6 
+
+
+! Internal server error, for request [GET /] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [')' expected]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:10:49,739 - [ERROR] - from application in New I/O server worker #1-1 
+
+
+! Internal server error, for request [GET /] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [')' expected]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:10:50,092 - [ERROR] - from application in New I/O server worker #1-7 
+
+
+! Internal server error, for request [GET /] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [')' expected]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:10:50,443 - [ERROR] - from application in New I/O server worker #1-1 
+
+
+! Internal server error, for request [GET /] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [')' expected]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:10:53,340 - [ERROR] - from application in New I/O server worker #1-2 
+
+
+! Internal server error, for request [GET /] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [')' expected]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:10:55,257 - [ERROR] - from application in New I/O server worker #1-3 
+
+
+! Internal server error, for request [GET /] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [')' expected]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:11:05,198 - [INFO] - from play in play-akka.actor.default-dispatcher-10 
+Application started (Dev)
+
+2012-04-19 21:11:39,660 - [ERROR] - from application in New I/O server worker #1-4 
+
+
+! Internal server error, for request [GET /] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [unclosed string literal]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:11:39,998 - [ERROR] - from application in New I/O server worker #1-7 
+
+
+! Internal server error, for request [GET /] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [unclosed string literal]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:11:55,635 - [INFO] - from play in play-akka.actor.default-dispatcher-10 
+Application started (Dev)
+
+2012-04-19 21:16:22,092 - [ERROR] - from application in New I/O server worker #1-2 
+
+
+! Internal server error, for request [GET /] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [value tasks is not a member of object controllers.Application]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:17:54,122 - [INFO] - from play in play-akka.actor.default-dispatcher-10 
+Application started (Dev)
+
+2012-04-19 21:20:12,315 - [INFO] - from play in play-akka.actor.default-dispatcher-12 
+Application started (Dev)
+
+2012-04-19 21:25:33,600 - [ERROR] - from application in New I/O server worker #1-1 
+
+
+! Internal server error, for request [GET /tasks] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [`;' expected but `.' found.]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:25:45,190 - [ERROR] - from application in New I/O server worker #1-1 
+
+
+! Internal server error, for request [GET /tasks] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [cannot find symbol [symbol: class Task] [location: class controllers.Application]]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:25:46,738 - [ERROR] - from application in New I/O server worker #1-2 
+
+
+! Internal server error, for request [GET /tasks] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [cannot find symbol [symbol: class Task] [location: class controllers.Application]]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:28:06,189 - [ERROR] - from application in New I/O server worker #1-3 
+
+
+! Internal server error, for request [GET /tasks] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [cannot find symbol [symbol: class Task] [location: class controllers.Application]]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:28:07,725 - [ERROR] - from application in New I/O server worker #1-4 
+
+
+! Internal server error, for request [GET /tasks] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [cannot find symbol [symbol: class Task] [location: class controllers.Application]]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:29:36,220 - [ERROR] - from application in New I/O server worker #1-5 
+
+
+! Internal server error, for request [GET /tasks] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [cannot find symbol [symbol: class Task] [location: class controllers.Application]]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:30:59,329 - [ERROR] - from application in New I/O server worker #1-6 
+
+
+! Internal server error, for request [GET /tasks] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [cannot find symbol [symbol: class Task] [location: class controllers.Application]]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:31:12,445 - [ERROR] - from application in New I/O server worker #1-7 
+
+
+! Internal server error, for request [GET /tasks] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [cannot find symbol [symbol: class Task] [location: class controllers.Application]]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:32:54,061 - [ERROR] - from application in New I/O server worker #1-8 
+
+
+! Internal server error, for request [GET /tasks] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [cannot find symbol [symbol: class Form] [location: class controllers.Application]]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:39:53,596 - [ERROR] - from application in New I/O server worker #1-1 
+
+
+! Internal server error, for request [GET /tasks] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [render(java.util.List<models.Task>,play.data.Form<models.Task>) in views.html.index cannot be applied to (java.lang.String)]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:39:58,409 - [ERROR] - from application in New I/O server worker #1-2 
+
+
+! Internal server error, for request [GET /tasks] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [render(java.util.List<models.Task>,play.data.Form<models.Task>) in views.html.index cannot be applied to (java.lang.String)]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:40:56,749 - [ERROR] - from application in New I/O server worker #1-3 
+
+
+! Internal server error, for request [GET /tasks] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [render(java.util.List<models.Task>,play.data.Form<models.Task>) in views.html.index cannot be applied to (java.lang.String)]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:42:22,502 - [ERROR] - from application in New I/O server worker #1-4 
+
+
+! Internal server error, for request [GET /] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [render(java.util.List<models.Task>,play.data.Form<models.Task>) in views.html.index cannot be applied to (java.lang.String)]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:42:59,191 - [ERROR] - from application in New I/O server worker #1-5 
+
+
+! Internal server error, for request [GET /] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [render(java.util.List<models.Task>,play.data.Form<models.Task>) in views.html.index cannot be applied to (java.lang.String)]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:44:12,232 - [ERROR] - from application in New I/O server worker #1-6 
+
+
+! Internal server error, for request [GET /] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [cannot find symbol [symbol: variable Task] [location: class controllers.Application]]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:46:59,609 - [ERROR] - from application in New I/O server worker #1-7 
+
+
+! Internal server error, for request [GET /] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [cannot find symbol [symbol: variable Task] [location: class controllers.Application]]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:48:00,851 - [ERROR] - from application in New I/O server worker #1-1 
+
+
+! Internal server error, for request [GET /] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [cannot find symbol [symbol: class Form] [location: class controllers.Application]]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:48:14,191 - [ERROR] - from application in New I/O server worker #1-3 
+
+
+! Internal server error, for request [GET /] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error [cannot find symbol [symbol: class Form] [location: class controllers.Application]]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
+	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:48:59,007 - [INFO] - from play in play-akka.actor.default-dispatcher-12 
+Application started (Dev)
+
+2012-04-19 21:52:59,274 - [INFO] - from play in play-akka.actor.default-dispatcher-15 
+database [default] connected at jdbc:h2:mem:play
+
+2012-04-19 21:52:59,352 - [INFO] - from play in play-akka.actor.default-dispatcher-15 
+Application started (Dev)
+
+2012-04-19 21:53:04,992 - [INFO] - from play in play-akka.actor.default-dispatcher-16 
+database [default] connected at jdbc:h2:mem:play
+
+2012-04-19 21:53:05,000 - [INFO] - from play in play-akka.actor.default-dispatcher-16 
+Application started (Dev)
+
+2012-04-19 21:53:46,438 - [INFO] - from play in play-akka.actor.default-dispatcher-16 
+database [default] connected at jdbc:h2:mem:play
+
+2012-04-19 21:53:47,741 - [INFO] - from play in play-akka.actor.default-dispatcher-16 
+Application started (Dev)
+
+2012-04-19 21:57:36,117 - [INFO] - from play in play-akka.actor.default-dispatcher-17 
+database [default] connected at jdbc:h2:mem:play
+
+2012-04-19 21:57:36,610 - [ERROR] - from application in New I/O server worker #1-5 
+
+
+! @6a533cc6c - Internal server error, for request [GET /tasks] ->
+
+play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evolution! [An SQL script need to be run on your database.]
+	at play.api.db.evolutions.EvolutionsPlugin$$anonfun$onStart$1.apply(Evolutions.scala:424) ~[play_2.9.1.jar:2.0]
+	at play.api.db.evolutions.EvolutionsPlugin$$anonfun$onStart$1.apply(Evolutions.scala:410) ~[play_2.9.1.jar:2.0]
+	at scala.collection.LinearSeqOptimized$class.foreach(LinearSeqOptimized.scala:59) ~[scala-library.jar:0.11.2]
+	at scala.collection.immutable.List.foreach(List.scala:45) ~[scala-library.jar:0.11.2]
+	at play.api.db.evolutions.EvolutionsPlugin.onStart(Evolutions.scala:410) ~[play_2.9.1.jar:2.0]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:60) ~[play_2.9.1.jar:2.0]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:60) ~[play_2.9.1.jar:2.0]
+	at scala.collection.LinearSeqOptimized$class.foreach(LinearSeqOptimized.scala:59) ~[scala-library.jar:0.11.2]
+	at scala.collection.immutable.List.foreach(List.scala:45) ~[scala-library.jar:0.11.2]
+	at play.api.Play$.start(Play.scala:60) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$3$$anonfun$1.apply(ApplicationProvider.scala:125) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$3$$anonfun$1.apply(ApplicationProvider.scala:112) ~[play_2.9.1.jar:2.0]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$3.apply(ApplicationProvider.scala:112) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$3.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at scala.Either$RightProjection.flatMap(Either.scala:277) ~[scala-library.jar:0.11.2]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
+	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
+	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+
+2012-04-19 21:57:49,073 - [WARN] - from play in New I/O server worker #1-5 
+Applying evolution script for database 'default':
+
+# --- Rev:1,Ups - 2af6baa
+create table task (
+id                        bigint not null,
+label                     varchar(255),
+constraint pk_task primary key (id))
+;
+
+create sequence task_seq;
+
+
+2012-04-19 21:57:49,213 - [INFO] - from play in play-akka.actor.default-dispatcher-17 
+database [default] connected at jdbc:h2:mem:play
+
+2012-04-19 21:57:49,553 - [INFO] - from play in play-akka.actor.default-dispatcher-17 
+Application started (Dev)
+
+2012-04-19 21:59:40,190 - [INFO] - from play in play-akka.actor.default-dispatcher-20 
+database [default] connected at jdbc:h2:mem:play
+
+2012-04-19 21:59:40,589 - [INFO] - from play in play-akka.actor.default-dispatcher-20 
+Application started (Dev)
+
